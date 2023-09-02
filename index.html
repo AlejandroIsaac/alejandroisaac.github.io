@@ -2,19 +2,53 @@
 <head>
     <title>Pagina personal</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
-</head>
 <body>
-    <header>
-        <img class="foto" src="styles/fotoPerfil.jpg" alt="">
-        <h1 class="name">Jose Alejandro Isaac Amado</h1>
-            
+    <header class="encabezado bg-secondary">
+        <h3>Jose Alejandro Isaac Amado</h3>
     </header>
-    <nav>
-        <ul>
-            <a href=""><li>Quien soy?</li></a>
-            <a href=""><li>Experiencia</li></a>
-            <a href=""><li>Proyectos</li></a>
+    <main class="main bg-light">
+        <section class="fotoPerfil">
+            <img class="foto rounded" src="assets/img/fotoPerfil.jpg" alt="">
+        </section>
+        <section class="info">
+            <p>
+                Hola, soy Jose Alejandro Isaac Amado.
+            </p>
+            <p>   
+                Soy desarrollador de software, estudié la licenciatura en Ingenieria en computacion en la Universidad Autónoma del Estado de Mexico.
+                <b>He trabajado en las posiciones de Soporte técnico, QA y Desarrollador Junior, haciendo uso de tecnologías como Java SE, Polymer y MongoDB.
+                Actualmente soy estudiante en la plataforma Platzi, he tomando cursos sobre Java, MongoDB, Angular, Spring Boot y Git.</b>   
+            </p>
+            <P>
+                Durante los últimos meses he estado desarrollando un par de proyectos personales 
+                los cuales puedes ver en la sección de la derecha y también en mi cuenta de Github.
+            </P>
+            <p>
+                Actualmente estoy abierto a ofertas laborales que me permita aplicar lo aprendido hasta ahora,
+                estoy buscando una posición en modalidad remoto o híbrido.
+            </p>
+            
+        </section>
+        <section class="proyectos">
+            <h3>Proyectos personales</h3>
+            <ul>
+                <li>
+                    <a href="">Tienda online</a>
+                </li>
+                <li>
+                    <a href="">Flujo de efectivo</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer border border-primary bg-secondary">
+        <ul class="contacto">
+            <li><h5>Contactame:</h5></li>
+            <li><a class="link" href="https://www.linkedin.com/in/jose-alejandro-isaac-amado-72a524223/">Linkedin</a></li>
+            <li><a class="link" href="https://github.com/AlejandroIsaac">Github</a></li>
+            <li><a class="link" href="">whatsapp</a></li>
         </ul>
-    </nav>
+    </footer>
 </body>
